@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sugen 2 Hypoxia vs Sugen 5 Hypoxia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="sidebar">
+      <h2>Sugen 2 Hypoxia vs Sugen 5 Hypoxia</h2>
+      <div id="autocomplete-wrapper">
+        <input id="geneInput" type="text" placeholder="Type gene, e.g. Pecam1" autocomplete="off">
+        <div id="suggestions"></div>
+      </div>
+      <button id="loadBtn">Load gene</button>
+      <div id="status">Loading UMAP...</div>
+    </div>
+
+    <div class="main">
+      <div id="plot"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

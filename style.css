@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.wrap {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 320px;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.main {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#plot {
+  width: 100%;
+  height: 95vh;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+#autocomplete-wrapper {
+  position: relative;
+  margin-top: 10px;
+}
+
+#autocomplete-wrapper input {
+  margin-top: 0;
+}
+
+#suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  max-height: 220px;
+  overflow-y: auto;
+  z-index: 999;
+  display: none;
+}
+
+#suggestions div {
+  padding: 8px 10px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+#suggestions div:hover, #suggestions div.active {
+  background: #e8f0fe;
+}
