@@ -1,0 +1,6 @@
+sample.interval=20000
+"hook" "Rprof" 
+".Call" ".rs.readSourceDocument" ".rs.discoverPackageDependencies" ".rs.rpc.discover_package_dependencies" 
+"cmpCallSymFun" "cmpCall" "cmp" "cmpBuiltinArgs" "cmpBuiltin" "cmpDotInternalCall" "h" "tryInline" "cmpCall" "cmp" "h" "tryInline" "cmpCall" "cmp" "h" "tryInline" "cmpCall" "cmp" "h" "tryInline" "cmpCall" "cmp" "genCode" "cmpfun" "doTryCatch" "tryCatchOne" "tryCatchList" "tryCatch" "compiler:::tryCmpfun" ".rs.parsePackageDependencies" ".rs.discoverPackageDependencies" ".rs.rpc.discover_package_dependencies" 
+"is.function" "match.fun" "lapply" "FUN" "lapply" "findLocalsList1" "findLocalsList" "funEnv" "make.functionContext" "h" "tryInline" "cmpCall" "cmp" "cmpSymbolAssign" "h" "tryInline" "cmpCall" "cmp" "h" "tryInline" "cmpCall" "cmp" "genCode" "cmpfun" "doTryCatch" "tryCatchOne" "tryCatchList" "tryCatch" "compiler:::tryCmpfun" ".rs.parsePackageDependencies" ".rs.discoverPackageDependencies" ".rs.rpc.discover_package_dependencies" 
+".Call" ".rs.readSourceDocument" ".rs.discoverPackageDependencies" ".rs.rpc.discover_package_dependencies" 
