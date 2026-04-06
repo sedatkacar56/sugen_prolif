@@ -32,7 +32,7 @@ async function loadUmap() {
   const res = await fetch("./umap.json");
   umapData = await res.json();
 
-  const groupOrder = ["Sugen 2", "Sugen 5"];
+  const groupOrder = ["Control", "Sugen 2", "Sugen 5"];
   const found = [...new Set(umapData.map(d => d.group))];
   groups = groupOrder.filter(g => found.includes(g))
            .concat(found.filter(g => !groupOrder.includes(g)));
