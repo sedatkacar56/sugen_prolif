@@ -16,6 +16,22 @@
         <div id="suggestions"></div>
       </div>
       <button id="loadBtn">Load gene</button>
+
+      <div class="control-group">
+        <label>Plot mode</label>
+        <div class="toggle">
+          <button id="modeFeature" class="mode-btn active">Feature plot</button>
+          <button id="modeDotplot" class="mode-btn">Dot plot</button>
+        </div>
+      </div>
+
+      <div class="control-group" id="cellTypeWrapper" style="display:none">
+        <label for="cellTypeSelect">Cell type</label>
+        <select id="cellTypeSelect">
+          <option value="__all__">All cell types</option>
+        </select>
+      </div>
+
       <div id="status">Loading UMAP...</div>
     </div>
 
